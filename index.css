@@ -104,4 +104,18 @@ td {
     margin-bottom: 10px;
     font-size: 20px;
   }
+  header{
+    text-align: center;
+    font-size: 15px;
+  }
+  h1{
+    background:#1a93c7; 
+  }
+ 
+  .cont-navegadores{
+    width: 90%;
+    margin: auto;
+  }
 }
+
+
