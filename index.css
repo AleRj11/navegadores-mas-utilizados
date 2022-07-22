@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: beige;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 0;
+  left: 0;
+  top: 0;
+  background: #1a93c7;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  height: 70px;
+}
+main{
+  margin-top: 150px;
+}
+.cont-navegadores{
+  width: 60%;
+  margin: auto;
+  font-family: arial;
+  margin-bottom: 60px;
+}
+
+.cont-navegadores section{
+  margin-bottom: 40px;
+}
+
+img{
+ width: 40%;
+ height: 150px;
+ margin: auto;
+ display: block;
+}
+
+.cont-navegadores h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cont-navegadores p{
+    text-align: justify;
+    font-size: 20px;
+    line-height:25px;
+}
+
+.cont-navegadores span{
+  font-weight: bold;
+}
+
+/* Cuadro compartivo */
+.cuadro {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 40px;
+  
+}
+th {
+  text-align: center;
+  font-size: 22px;
+}
+
+tr,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+.encabezados td {
+  text-align: center;
+}
+.nombre{
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo {
+  width: 65%;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.contenido {
+  width: 300px;
+  text-align: justify;
+  padding: 5px;
+}
+
+@media (max-width: 946px) {
+  .container {
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  .navegador {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+}
